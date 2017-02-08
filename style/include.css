@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+body{ 
+	background:url(../images/boby_bg.jpg) center repeat-y;
+	margin:0px;
+	padding:0px;
+}
+img {border:0;}
+.clearfix:after{ content:""; height:0; visibility:hidden; display:block; clear:both;}
+.clearfix{ zoom:1;}
+.wrapper {
+	width:100%;
+	position:relative;
+	margin:0 auto;
+}
+/*页面头部*/
+.tool_bar {
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:28px;
+	background:#fdfdfd url(../images/mininav.png) repeat-x top center;
+	border-bottom:1px solid #ebebeb;
+}
+.mininavInner {
+	width:1000px;
+	height:28px;
+	margin:0 auto !important;	
+}
+.mininavLeft {
+	float:left;
+	margin-top:8px;
+	color:#c7c7c7;
+	font-size:12px;
+}
+.mininavInner a {
+	color:#666;
+	text-decoration:none;
+	font-family:"宋体";
+}
+.mininavRight {
+	float:right;
+	color:#c7c7c7;
+	line-height:28px;
+}
+a.mailLogin {
+	width:30px;
+	height:28px;
+	display:block;
+	float:right;
+	background:url(../images/loginall_1.2.png) left -150px;
+}
+.mininavRight .mailLogin:hover{background:url(../images/loginall_1.2.png) -71px -150px;}
+a.qzoneLogin {
+	width:30px;
+	height:28px;
+	display:block;
+	float:right;
+	background:url(../images/loginall_1.2.png) left -100px;
+}
+.mininavRight .qzoneLogin:hover{background:url(../images/loginall_1.2.png) -71px -100px;}
+a.weiboLogin {
+	width:30px;
+	height:28px;
+	display:block;
+	float:right;
+	background:url(../images/loginall_1.2.png) left -50px;
+}
+.mininavRight .weiboLogin:hover{background:url(../images/loginall_1.2.png) -71px -50px;}
+a.login {
+	width:70px;
+	height:28px;
+	display:block;
+	float:right;
+	background:url(../images/loginall_1.2.png) left -450px;
+}
+.mininavRight .login:hover{background:url(../images/loginall_1.2.png) left -500px;}
+
+/*页面主体*/
+.main {
+	width:1000px;
+	position:relative;
+	margin:0 auto;
+}
+.banner {
+	width:1000px;
+	height:48px;
+	float:left;
+	margin:0 auto;
+	background:url(../images/head_bg.jpg) top center no-repeat;
+	padding-top:140px;
+}
+.banner a {
+	padding-left:557px;
+	color:#2e858c;
+	font-size:14px;
+}
+a {
+	outline:none;
+	text-decoration:none;
+}	
+a:hover {text-decoration:underline;}
+/*页面主体左边*/
+.main .main_left {
+	
+	padding-right:80px;
+	overflow:hidden;
+	height:auto;
+	float:left;
+	background:#fff;
+}
+
+/*页面主体右边*/
+.main .main_right {
+	float:left;
+	width:281px;
+	height:auto;
+	padding-left:18px;
+}
+.modtitle {
+	height:39px;
+	line-height:39px;
+	font-size:20px;
+	color:#fff;
+	background:url(../images/right_titlebg.jpg) top left no-repeat;
+	padding-left:10px;
+	font-family:"微软雅黑";
+	padding-bottom:20px;
+}
+
+/*原创策划*/
+.main_right .d_r_box_plan {
+	width:281px;
+	height:auto;	
+}
+.main_right .d_r_box_plan .modtitle {margin-top:0;}
+.main_right .d_r_box_plan .modcon img {margin-top:0;width:281px;}
+.main_right .d_r_box_plan .modcon .con a {
+	font-size:16px;
+	color:#333;
+	margin-top:10px;
+	padding:10px 11px 20px 11px;
+	font-family:"微软雅黑";
+}
+.main_right .d_r_box_plan .modcon .con a:hover,
+.hot ul li a:hover {color:#3CC;}
+
+/*艺术关键词*/
+.main_right .d_r_box_art {
+	width:281px;
+	height:auto;	
+}
+.main_right .d_r_box_art .modtitle {margin-top:40px;}
+.main_right .d_r_box_art table {
+	width:281px;
+	height:100px;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+.main_right .d_r_box_art table tr td {
+	width:93px;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	font-family:"宋体";
+	color:#fff;
+	text-align:center;
+	background:#2e858c;
+}
+.main_right .d_r_box_art table tr .td1 {background:#7ab0bc;}
+.main_right .d_r_box_art table tr .td2 {background:#679cab;}
+.main_right .d_r_box_art table tr td a {color:#fff; display:block;}
+.main_right .d_r_box_art table tr td a:hover {
+	text-decoration:none;background:#b8a3b6;}
+
+
+/*我视觉*/
+.main_right .d_r_box_myview {
+	width:281px;
+	height:auto;	
+}
+.main_right .d_r_box_myview .modtitle {margin-top:40px;}
+ul,li {
+	margin:0;
+	padding:0;
+}
+li {list-style:none;}
+.main_right .d_r_box_myview .modcon dl {
+	position:relative;
+	height:375px;
+	overflow:hidden;
+	width:280px;
+	margin:0px;
+}
+.main_right .d_r_box_myview .modcon dl dt a{height:100%;}
+.main_right .d_r_box_myview .modcon dl dt a img{min-width:100%;height:100%;}
+.main_right .d_r_box_myview .modcon dl dd {
+	position:absolute;
+	top:318px;
+	width:280px;
+	height:57px;
+	padding-top:10px;
+	margin-left:0px;
+	background:url(../images/dd_bg.png) no-repeat;
+}
+.d_r_box_myview .modcon .font_a,.font_b {padding-left:10px;}
+.d_r_box_myview .modcon .font_a a{
+	font-size:18px;
+	font-family:"宋体";
+	line-height:20px;
+	color:#fff;
+}
+.d_r_box_myview .modcon .font_a a:hover {text-decoration:none;}
+.d_r_box_myview .modcon .font_b {
+	font-size:12px;
+	color:#9e9f9f;
+	line-height:20px;
+}
+.d_r_box_myview .modcon .myview_s_img {
+	width:135px;
+	display:inline;
+	padding-top:8px;
+	text-align:center;
+}
+.main_right .d_r_box_myview .modcon .myview_s_img img {
+	padding-top:5px;
+	width:135px;
+	height:90px;
+}
+.main_right .d_r_box_myview .modcon .img_l { padding-right:3px;}
+.main_right .d_r_box_myview .modcon .img_font a {
+	height:25px;
+	line-height:25px;
+	font-size:16px;
+	color:#666;
+	font-family:"宋体";
+}
+.main_right .d_r_box_myview .modcon .img_font a{ padding-left:39px;}
+.main_right .d_r_box_myview .modcon .img_font_l { padding-right:25px;}
+
+/*热点*/
+.main_right .d_r_box_hot {
+	width:281px;
+	height:auto;	
+}
+.main_right .d_r_box_hot .modtitle {
+	margin-top:40px;
+}
+.main_right .d_r_box_hot ul {
+	width:280px;
+	height:307px;
+	padding-top:15px;
+	padding-bottom:25px;
+	background:url(../images/xuhao.jpg) no-repeat;
+}
+.main_right .d_r_box_hot li {
+	width:245px;
+	height:43px;
+	float:left;
+	font-size:14px;
+	font-family:"宋体";
+	line-height:42px;
+	padding-left:35px;
+	border-bottom:1px dashed #d5d5d5;
+}
+.main_right .d_r_box_hot li a {color:#000;}
+.main_right .d_r_box_hot li a:hover {color:#679ca8;}
+
+/*出品团队*/
+.main_right .d_r_box_team {
+	width:281px;
+	height:auto;	
+}
+.main_right .d_r_box_team .modtitle {
+	margin-top:20px;
+}
+.main_right .d_r_box_team .modcon .con {
+	font-size:14px;
+	font-family:"宋体";
+	color:#010101;
+	line-height:31px;
+	padding:10px 20px 20px 20px;
+}
+.main_right .d_r_box_team .modcon img {padding:0 84px;width:113px;}
+
+/*底部*/
+.footer {
+	float:left;
+	width:100%;
+	height:auto;
+	background:#f2f2f2;
+	padding-bottom:10px;
+	border-top:6px solid #679ca8;
+}
+.footer_box {
+	width:960px;
+	margin:0 auto;
+	padding:8px 0;
+	font-size:12px;
+	line-height:28px;
+	text-align:center;
+	overflow:hidden;
+	clear:both;
+}
+.footer_box a {color:#333;}
+.footer .copyright {font-family: Helvetica, Arial, sans-serif;}

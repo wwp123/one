@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tempSuite><!--定义模板套-->
+  <tempSuiteName>cms_art</tempSuiteName><!--模板套名-->
+  <tempSuiteDesc>cms_art</tempSuiteDesc><!--模板套描述-->
+  <tempSuiteVersion>1.1</tempSuiteVersion><!--模板套版本-->
+  <tempSuiteAuthor>wwp</tempSuiteAuthor><!--模板套作者-->
+ 
+   <template>
+		<tempName><![CDATA[cms_example_文章页]]></tempName>
+		<tempType>article</tempType>
+		<tempExt><![CDATA[jsp]]></tempExt>
+		<fileName><![CDATA[images.html]]></fileName>
+   </template>
+  
+</tempSuite>
